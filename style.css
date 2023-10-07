@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.parallax-container {
+  height: 300px; /* Adjust the height as needed */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.parallax-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.parallax-bg1 {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/027/542/063/small/ai-artificial-intelligence-neon-wallpaper-background-technology-futuristic-ai-generated-photo.jpg"); /* Replace with your image */
+}
+
+.parallax-bg2 {
+  background-image: url("https://factcheckhub.com/wp-content/uploads/2023/07/AI-7.jpg"); /* Replace with your image */
+}
+
+.content {
+  padding: 20px;
+  background-color: #f0f0f0; /* Background color for non-parallax sections */
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* Add more styles as needed */
